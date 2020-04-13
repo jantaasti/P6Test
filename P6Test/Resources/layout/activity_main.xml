@@ -1,0 +1,68 @@
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/oldLocation"
+        android:layout_gravity="top"
+        android:textStyle="normal"
+        android:textSize="30px"
+        android:typeface="serif"
+        android:layout_marginLeft="200px" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NewLocation"
+        android:layout_gravity="top"
+        android:textStyle="normal"
+        android:textSize="30px"
+        android:typeface="serif"
+        android:layout_marginLeft="500px" />
+
+    <Button
+        android:text="Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LocationBtn"
+        android:layout_gravity="center" />
+    
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/speed"
+        android:layout_gravity="center"
+        android:textStyle="normal"
+        android:textSize="100px"
+        android:typeface="serif"
+        android:layout_marginBottom="200px" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/updates"
+        android:layout_gravity="center|bottom"
+        android:textStyle="normal"
+        android:textSize="100px"
+        android:typeface="serif"
+        android:layout_marginBottom="200px" />
+    <Button
+        android:text="RESET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resetButton"
+        android:layout_gravity="center|center"
+        android:layout_marginTop="200px" />
+</FrameLayout>
